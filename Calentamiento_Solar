@@ -1,0 +1,13 @@
+Algoritmo Calentamiento_Solar;
+definir Te,Ts,diferencia como real;
+Escribir "Ingrese la temperatura de entrada (Te) en °C:";
+Leer Te;
+Escribir "Ingrese la temperatura de salida (Ts) en °C:";
+Leer Ts;
+diferencia<-Te-Ts;
+Si diferencia >= 15 entonces;
+Escribir "Eficiente";
+SiNo;
+Escribir "Revisar aislamiento";
+Finsi;
+FinAlgoritmo
